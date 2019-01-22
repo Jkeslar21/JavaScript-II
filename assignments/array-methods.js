@@ -61,7 +61,7 @@ let fullName = [];
     let lastName = runners[i].last_name;
     fullName.push(`${firstName} ${lastName}`); 
 } */
-
+runners.forEach(r => fullName.push(`${r.first_name} ${r.last_name}`))
 console.log(fullName);
 
 // ==== Challenge 2: Use .map() ====
