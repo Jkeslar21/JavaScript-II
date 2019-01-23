@@ -3,6 +3,7 @@
 
 
 // ==== Challenge 2: Create a counter function ====
+**super confused with this** will try again later** 
 const counter = () => {
   // Return a function that when invoked increments and returns a counter variable.
 };
